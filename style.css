@@ -1,0 +1,50 @@
+/* 文件地址为 "aboutTVVC\style.css" */
+* { /* 通配符 */
+  box-sizing: border-box;
+}
+
+a {
+  color: #72512e;
+  text-decoration: none;     /* 去掉链接默认的下划线 */
+}
+
+body {
+  /* 1. 去掉浏览器默认的四周白边 */
+  margin: 0; 
+  
+  /* 2. 设置字体。优先用电脑自带的系统字体，好看且加载快 */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  
+  /* 3. 设置行高，1.6 倍行距，让文字不要挤在一起，看着舒服 */
+  line-height: 1.6; 
+  
+  /* 4. 给页面加个淡淡的灰底色，文字颜色调成深灰（不要纯黑，刺眼） */
+  background-color: #f7f9fc; 
+  color: #333333;
+  
+  /* 5. 内边距：上下 40px，左右自动（自动的意思后面讲，先照抄） */
+  padding: 40px 20px; 
+}
+
+/* h1 是一级标题 */
+h1 {
+  color: #1a1a1a; /* 标题颜色深一点 */
+  text-align: center; /* 文字居中 */
+  margin-bottom: 10px; /* 底部留空 10px */
+}
+
+/* 页脚样式 */
+footer {
+  text-align: center;        /* 文字居中 */
+  margin-top: 50px;          /* 距离上面的内容留出 50px 的空隙 */
+  padding-top: 20px;         /* 内部顶部留白 */
+  border-top: 1px solid #eee;/* 顶部加一条浅灰色的分割线 */
+  color: #888888;            /* 文字颜色变成浅灰色 */
+  font-size: 14px;           /* 字体稍微小一点 */
+}
+
+
+/* 鼠标悬停在链接上时的效果 */
+footer a:hover {
+  text-decoration: underline;/* 鼠标放上去时显示下划线 */
+}
